@@ -1,153 +1,378 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Home</title>
-      <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://kit.fontawesome.com/6bd9574680.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/6bd9574680.js" crossorigin="anonymous"></script>
 </head>
+
 <body class="bg-[#150E28]">
-      <!--150E28->
-      /* Register Button */
-position: absolute;
-rgba(144, 58, 255, 1)
-rgba(254, 52, 185, 1)-->
-      <div class=" text-white flex flex-col">
-          <div class="border-b border-white py-2 flex items-center justify-between">
-          <div class="font-bold px-5 text-white flex-grow text-2xl">
-            <p class="inline">get</p>
-            <p class="inline">linked</p>
-          </div>
-          <i id= "menu-open" class="fa-solid fa-bars mr-5 hover:cursor-pointer text-white sm:hidden"></i>
-        
-          <!--For laptop-->
-          <div class="hidden sm:flex sm:flex-grow sm:flex-row sm:justify-between sm:items-center sm:text-sm sm:text-white">
-            <p class="py-3 hover:bg-green-300 sm:hover:bg-[#150E28] hover:cursor-pointer sm:hover:underline">Timeline</p>
-            <p class="py-3 hover:bg-green-300 sm:hover:bg-[#150E28] hover:cursor-pointer sm:hover:underline">Overview</p>
-            <p class="py-3 hover:bg-green-300 sm:hover:bg-[#150E28] hover:cursor-pointer sm:hover:underline">FAQs</p>
-            <p class="py-3 hover:bg-green-300 sm:hover:bg-[#150E28] hover:cursor-pointer sm:mr-5 sm:hover:underline">Contact</p>
-            <p class="py-3 hover:bg-green-300 sm:hover:bg-[#150E28] hover:cursor-pointer sm:mr-5 sm:hover:underline">
-                  <a class="bg-gradient-to-r from-pink-600 to-purple-500 px-6 py-2 rounded-sm">Register</a>
-            </p>
-          </div>
-          </div>
-  
-          <!--phone-->
-          <div id="options" class="hidden bg-[#150E28] text-white text-left flex flex-grow justify-center flex-col sm:hidden fixed top-0 h-full w-full">
-          <i id="menu-close" class="fa-regular fa-circle-xmark text-2xl hover:text-pink-600 hover:text-gradient-to-r hover:from-[#D434FE] hover:to-transparent hover:cursor-pointer ml-auto mr-20"></i>
-          <p class="py-3 px-12 hover:cursor-pointer w-screen">Timeline</p>
-          <p class="py-3 px-12 hover:cursor-pointer w-screen">Overview</p>
-          <p class="py-3 px-12 hover:cursor-pointer w-screen">FAQs</p>
-          <p class="py-3 px-12 hover:cursor-pointer w-screen">Contact</p>
-          <p class="py-3 px-12 hover:cursor-pointer w-screen">
-            <a class="bg-gradient-to-r from-pink-600 to-purple-500 px-6 py-2 rounded-sm">Register</a>
+  <div class="mb-20 border-b border-gray-100/20 text-white flex flex-col">
+    <div class="border-b border-white py-2 flex items-center justify-between">
+      <div class="font-bold px-5 text-white flex-grow text-2xl">
+        <p class="inline">get</p>
+        <p class="inline">linked</p>
+      </div>
+      <i id="menu-open" class="fa-solid fa-bars mr-5 hover:cursor-pointer text-white sm:hidden"></i>
+
+      <!--For laptop-->
+      <div class="hidden sm:flex sm:flex-grow sm:flex-row sm:justify-between sm:items-center sm:text-sm sm:text-white">
+        <p class="py-3 hover:bg-green-300 sm:hover:bg-[#150E28] hover:cursor-pointer sm:hover:underline">
+          Timeline
+        </p>
+        <p class="py-3 hover:bg-green-300 sm:hover:bg-[#150E28] hover:cursor-pointer sm:hover:underline">
+          Overview
+        </p>
+        <p class="py-3 hover:bg-green-300 sm:hover:bg-[#150E28] hover:cursor-pointer sm:hover:underline">
+          FAQs
+        </p>
+        <p class="py-3 hover:bg-green-300 sm:hover:bg-[#150E28] hover:cursor-pointer sm:mr-5 sm:hover:underline">
+          Contact
+        </p>
+        <p class="py-3 hover:bg-green-300 sm:hover:bg-[#150E28] hover:cursor-pointer sm:mr-5 sm:hover:underline">
+          <a href="register.html" class="bg-gradient-to-r from-pink-600 to-purple-500 px-6 py-2 rounded-sm">Register</a>
+        </p>
+      </div>
+    </div>
+
+    <!--phone-->
+    <div id="options"
+      class="hidden bg-[#150E28] text-white text-left flex flex-grow justify-center flex-col sm:hidden fixed top-0 h-full w-full">
+      <i id="menu-close"
+        class="fa-regular fa-circle-xmark text-2xl hover:text-pink-600 hover:text-gradient-to-r hover:from-[#D434FE] hover:to-transparent hover:cursor-pointer ml-auto mr-20"></i>
+      <p class="py-3 px-12 hover:cursor-pointer w-screen">Timeline</p>
+      <p class="py-3 px-12 hover:cursor-pointer w-screen">Overview</p>
+      <p class="py-3 px-12 hover:cursor-pointer w-screen">FAQs</p>
+      <p class="py-3 px-12 hover:cursor-pointer w-screen">Contact</p>
+      <p class="py-3 px-12 hover:cursor-pointer w-screen">
+        <a href="register.html" class="bg-gradient-to-r from-pink-600 to-purple-500 px-6 py-2 rounded-sm">Register</a>
+      </p>
+    </div>
+
+    <p class="text-center mt-3 sm:text-right sm:mr-5 sm:text-2xl">
+      Igniting a Revolution in HR Innovation
+    </p>
+
+    <div class="flex flex-col text-center justify-center lg:items-center lg:flex-row mr-5 ml-5 mt-8 mb-20 h-130">
+      <div class="mt-50">
+        <p class="text-3xl font-bold pb-3">getLinked Tech Hackathon 1.0</p>
+        <p class="pb-3">
+          Participate in getlinked tech Hackathon 2023 and stand a chance to
+          win a big prize
+        </p>
+        <p class="pb-8">
+          <a href="register.html"
+            class="bg-gradient-to-r from-pink-600 to-purple-500 px-6 py-2 rounded-sm hover:bg-[#D434FE]">Register</a>
+        </p>
+        <div>
+          <p class="text-2xl font-bold inline">
+            00<span class="text-sm font-normal mr-4">H</span>
           </p>
-          </div>
+          <p class="inline text-2xl font-bold">
+            00<span class="text-sm font-normal mr-4">M</span>
+          </p>
+          <p class="text-2xl font-bold inline">
+            00<span class="text-sm font-normal mr-4">S</span>
+          </p>
+        </div>
+      </div>
+      <img src="img/man.png" />
+    </div>
+  </div>
+
+  <div class="mb-20 border-b border-gray-100/20 flex flex-col justify-center items-center lg:flex-row">
+    <img class="mb-20" src="img/intro.png" />
+
+    <div class="mx-5 mb-20 sm:mb-0 text-white text-center">
+      <p class="text-3xl font-bold">Introducton to getlinked</p>
+      <p class="text-2xl text-[#D434FE] font-bold">tech Hackathon 1.0</p>
+      <p>
+        Our tech hackthon is a melting pot of visionaries, and its purpose is
+        as clear as day: to shape the future. Whether you're a coding genius,
+        a design maverick, or a concept wizard, you'll have the chance to
+        transform your ideas into reality. Solving real-world problems,
+        pushing the boundaries of technology, and creating solutions that can
+        change the world, that's what we're about!
+      </p>
+    </div>
+  </div>
+
+  <div class="mb-20 border-b border-gray-100/20 flex flex-col justify-center items-center lg:flex-row">
+    <div class="text-white mx-5 text-center">
+      <p class="text-3xl font-bold">Rules and</p>
+      <p class="text-2xl text-[#D434FE] font-bold">Guidelines</p>
+      <p>
+        Our tech hackthon is a melting pot of visionaries, and its purpose is
+        as clear as day: to shape the future. Whether you're a coding genius,
+        a design maverick, or a concept wizard, you'll have the chance to
+        transform your ideas into reality. Solving real-world problems,
+        pushing the boundaries of technology, and creating solutions that can
+        change the world, that's what we're about!
+      </p>
+    </div>
+    <img class="mb-20" src="img/rules.png" />
+  </div>
+
+  <div class="border-b border-gray-100/20 flex flex-col mb-20 justify-center items-center lg:flex-row">
+    <img class="mb-20" src="img/judge.png" />
+    <div class="mx-5 text-white mb-10 sm:mb-0 text-center">
+      <p class="text-3xl font-bold">Judging Criteria</p>
+      <p class="text-2xl text-[#D434FE] font-bold">Key attributes</p>
+      <p>
+        <span class="text-[#D434FE] font-bold">Innovation and Creativity:</span>
+        Evaluate the uniqueness and creativity of the solution. Consider
+        whether it addresses a real-world problem in a novel way or introduces
+        innovative features.
+      </p>
+      <p>
+        <span class="text-[#D434FE] font-bold">Functionality:</span>
+        Assess how well the solution works. Does it perform its intended
+        functions effectively and without major issues? Judges would consider
+        the completeness and robustness of the solution.
+      </p>
+      <p>
+        <span class="text-[#D434FE] font-bold">Impact and Relevance:</span>
+        Dtermine the potential impact of the solution in the real-world. Does
+        it address a significant problem, and is relevant to the target
+        audience? Judges would assess the potential social, economic, or
+        environmental benefits.
+      </p>
+      <p>
+        <span class="text-[#D434FE] font-bold">Technical Complexity:</span>
+        Evaluate the technical sophistication of the solution. Judges would
+        consider the complexity of the code, the use of advanced technologies
+        or algorithms, and the scalability of the solution.
+      </p>
+      <p>
+        <span class="text-[#D434FE] font-bold">Adherence to Hackathon Rules:</span>
+        Judges will ensure that the team adhered to the rules and guidelines
+        of the hackathon, including deadlines, use of specific APIs, and any
+        other competition-specific requirements.
+      </p>
+      <p class="mt-5 mb-20">
+        <a class="bg-gradient-to-r from-pink-600 to-purple-500 px-6 py-2 rounded-sm">Read More</a>
+      </p>
+    </div>
+  </div>
+
+  <div class="border-b border-gray-100/20 mb-20 flex flex-col justify-center items-center lg:flex-row">
+    <div class="text-white mx-5 text-center">
+      <p class="text-3xl font-bold">Frequently Ask</p>
+      <p class="text-2xl font-bold text-[#D434FE]">Questions</p>
+      <p>
+        We got answers to the questions that you might want to ask about
+        <span class="font-bold">getlinked Hackathon 1.0</span>
+      </p>
+
+      <div class="question mt-10 text-left">
+        <div class="border-b border-[#D434FE] flex items-center justify-between py-2">
+          <p>Can I work on a project I started before the hackathon?</p>
+          <i class="text-[#D434FE] fa-solid fa-plus mr-10"></i>
+        </div>
+        <div class="border-b border-[#D434FE] flex items-center justify-between py-2">
+          <p>What happens if I need help during the hackathon?</p>
+          <i class="text-[#D434FE] fa-solid fa-plus mr-10"></i>
+        </div>
+        <div class="border-b border-[#D434FE] flex items-center justify-between py-2">
+          <p>What happens if I don't have an idea for a project?</p>
+          <i class="text-[#D434FE] fa-solid fa-plus mr-10"></i>
+        </div>
+        <div class="border-b border-[#D434FE] flex items-center justify-between py-2">
+          <p>Can I join a team or do I have to come with one?</p>
+          <i class="text-[#D434FE] fa-solid fa-plus mr-10"></i>
+        </div>
+        <div class="border-b border-[#D434FE] flex items-center justify-between py-2">
+          <p>What happens after the hackathon ends?</p>
+          <i class="text-[#D434FE] fa-solid fa-plus mr-10"></i>
+        </div>
+        <div class="border-b border-[#D434FE] flex items-center justify-between py-2">
+          <p>Can I work on a project I started before the hackathon?</p>
+          <i class="text-[#D434FE] fa-solid fa-plus mr-10"></i>
+        </div>
+      </div>
+    </div>
+    <img class="mb-20" src="img/FAQ.png" />
+  </div>
+
+  <div class="text-white text-center border-b border-gray-100/20 mb-20">
+    <p class="text-3xl font-bold">Timeline</p>
+    <p class="mx-5">Here is the breakdown of the time we anticipate using for the upcoming event.</p>
+    <div class="my-10 flex flex-row justify-center items-center">
+      <img src="img/numbers.png" class="mr-5">
+      <img src="img/timeline.png">
+    </div>
+    <!--div
+      class="border-b border-gray-100/20 mb-20 flex flex-row justify-center items-center lg:flex-row mt-14 lg:hidden">
+      <img src="numbers.png" class="lg:hidden ml-5" />
+      <div class="mx-5 bg-red-200">
+        <div class="mb-13 h-30 bg-yellow-600">
+          <p>The Hackathon assessment</p>
+          <p>
+            The getlinked tech hackathon is formally announced to the general
+            public and teams begin to get ready to register
+          </p>
+          <p>November 18, 2023</p>
+        </div>
+
+        <div class="mb-7">
+          <p>Team registeration begins</p>
+          <p>
+            Interested teams can now show their interest in the getlinked tech
+            hackathon 1.0 2023 by proceeding to register
+          </p>
+          <p>November 18, 2023</p>
+        </div>
+
+        <div class="mb-7">
+          <p>Team Registration ends</p>
+          <p>Interested participants are no longer allowed to register</p>
+          <p>November 18, 2023</p>
+        </div>
+
+        <div class="mb-7">
+          <p>Announcement of the selected teams and ideas</p>
+          <p>
+            All teams whom idea has been accepted into getlinked hackathon 1.0
+            2023 are formally announced
+          </p>
+          <p>November 18, 2023</p>
+        </div>
+
+        <div class="mb-7">
+          <p>Getlinked hackathon 1.0 officially begins</p>
+          <p>
+            Accepted teams can now proceed to build their groundbreaking
+            skill-driven solutions
+          </p>
+          <p>November 18, 2023</p>
+        </div>
+
+        <div>
+          <p>Demo Day</p>
+          <p>
+            Teams get the opportunity to pitch their projects to judges. The
+            winner of the hackathon will also be announced on this day
+          </p>
+          <p>November 18, 2023</p>
+        </div>
+      </div>
+    </div-->
+  </div>
+
+
+  <div class="border-b border-gray-100/20 mb-20 text-center text-white">
+    <p class="text-3xl font-bold">Prizes and</p>
+    <p class="text-3xl font-bold text-[#D434FE]">Rewards</p>
+    <div class="flex flex-col lg:flex-row justify-center items-center mb-20">
+      <div class="mb-10 lg:mx-10 flex-grow">
+        <img class="lg:h-80 lg:w-50" src="img/trophy.png">
+      </div>
+      <div class="lg:mx-10">
+        <img class="lg:h-80 lg:w-50" src="img/Rewards.png">
+      </div>
+    </div>
+  </div>
+
+  <div class="text-white flex flex-col justify-center items-center border-b border-gray-100/20 mb-20">
+    <div class="my-5 mx-6 text-center">
+      <p class="text-3xl font-bold">Partners and Sponsors</p>
+      <p>
+        Getlinked Hackathon 1.0 is honored to have the following major
+        companies as its partners and sponsors
+      </p>
+    </div>
+
+    <div class="w-[90%] lg:min-h-80 border grid grid-cols-3 gap-y-3 rounded-sm border-[#D434FE] mb-20 p-10">
+      <div class="h-40 border-r border-white">
+        <div class="h-20 border-b border-white flex justify-center items-center">
+          <img src="img/p1.png">
+        </div>
+        <div class="h-20 border-t border-white flex justify-center items-center">
+          <img src="img/p4.png">
+        </div>
+      </div>
+      <div class="h-40 border-r border-white">
+        <div class="h-20 border-b border-white flex justify-center items-center">
+          <img src="img/p2.png">
+        </div>
+        <div class="h-20 border-t border-white flex justify-center items-center">
+          <img src="img/p5.png">
+        </div>
+      </div>
+      <div class="h-40 border-l border-white">
+        <div class="h-20 border-b border-white flex justify-center items-center">
+          <img src="img/p3.png">
+        </div>
+        <div class="h-20 border-t border-white flex justify-center items-center">
+          <img src="img/p6.png">
+        </div>
+      </div>
       
-          <p class="text-center mt-3 sm:text-right sm:mr-5 sm:text-2xl">Igniting a Revolution in HR Innovation</p>
+    </div>
+  </div>
 
-          <div class="flex flex-col text-center justify-center lg:items-center lg:flex-row mr-5 ml-5 mt-8 h-130">
-            <div class="mt-50">
-              <p class="text-3xl font-bold pb-3">getLinked Tech Hackathon 1.0</p>
-              <p class="pb-3"> Participate in getlinked tech Hackathon 2023 and stand a chance to win a big prize</p>
-              <p class="pb-8">
-              <a class="bg-gradient-to-r from-pink-600 to-purple-500 px-6 py-2 rounded-sm hover:bg-[#D434FE]">Register</a>
-              </p>
-              <div>
-                <p class="text-2xl font-bold inline">00<span class="text-sm font-normal mr-4">H</span></p>
-                <p class="inline text-2xl font-bold">00<span class="text-sm font-normal mr-4">M</span></p>
-                <p class="text-2xl font-bold inline">00<span class="text-sm font-normal mr-4">S</span></p>
-              </div>
-            </div>
-            <img src="man.png" class="sm:w-auto sm:h-auto">
-          </div>
+
+  <div class="mb-20 flex flex-col text-white justify-center items-center lg:flex-row">
+    <div class="flex flex-col justify-center text-sm items-center text-center mx-5">
+      <p class="text-3xl font-bold">Privacy Policy and</p>
+      <p class="text-3xl font-bold text-[#D434FE]">Terms</p>
+      <p class="mb-6">Last updated on September 12, 2023</p>
+      <p class="mb-7">
+        Below are our privacy & policy, which outline a lot of goodies. it’s
+        our aim to always take of our participant
+      </p>
+
+      <div class="w-[95%] px-4 py-7 text-center border rounded-sm border-[#D434FE]">
+        <p>
+          At getlinked tech Hackathon 1.0, we value your privacy and are
+          committed to protecting your personal information. This Privacy
+          Policy outlines how we collect, use, disclose, and safeguard your
+          data when you participate in our tech hackathon event. By
+          participating in our event, you consent to the practices described
+          in this policy.
+        </p>
+        <p class="mt-5 text-left text-[#D434FE] font-bold">
+          Licensing Policy
+        </p>
+        <p class="text-left mb-3">Here are forms of our Standard License:</p>
+        <p class="text-left mb-3">
+          The Standard License grants you a non-exclusive right to navigate
+          and register for our event
+        </p>
+        <p class="text-left">
+          You are licensed to use the item available at any free source sites,
+          for your project developement
+        </p>
+        <p class="py-3 sm:hover:bg-[#150E28] hover:cursor-pointer mt-3 sm:mr-5 sm:hover:underline">
+          <a href="register.html" class="bg-gradient-to-r from-pink-600 to-purple-500 px-6 py-2 rounded-sm">Register</a>
+        </p>
       </div>
+    </div>
+    <img src="img/img1.png" />
+  </div>
 
-
-      <div class="flex flex-col justify-center items-center mx-5 lg:flex-row">
-        <img src="img1.png">
-        <div class="text-white text-center">
-          <p class="text-3xl font-bold">Introducton to getlinked</p>
-          <p class="text-2xl text-[#D434FE] font-bold">tech Hackathon 1.0</p>
-          <p> Our tech hackthon is a melting pot of visionaries, and its purpose is as clear as day: to shape the future. Whether you're a coding genius, a design maverick, or a concept wizard, you'll have the chance to transform your ideas into reality. Solving real-world problems, pushing the boundaries of technology, and creating solutions that can change the world, that's what we're about!</p>
-        </div>
-      </div>
-
-
-      <div class="flex flex-col justify-center items-center mx-5 lg:flex-row">
-        <div class="text-white text-center">
-          <p class="text-3xl font-bold">Rules and</p>
-          <p class="text-2xl text-[#D434FE] font-bold">Guidelines</p>
-          <p> Our tech hackthon is a melting pot of visionaries, and its purpose is as clear as day: to shape the future. Whether you're a coding genius, a design maverick, or a concept wizard, you'll have the chance to transform your ideas into reality. Solving real-world problems, pushing the boundaries of technology, and creating solutions that can change the world, that's what we're about!</p>
-        </div>
-        <img src="img1.png">
-      </div>
-
-
-      <div class="flex flex-col justify-center items-center mx-5 lg:flex-row">
-        <img src="img1.png">
-        <div class="text-white text-center">
-          <p class="text-3xl font-bold">Judging Criteria</p>
-          <p class="text-2xl text-[#D434FE] font-bold">Key attributes</p>
-          <p>
-            <span class="text-[#D434FE] font-bold">Innovation and Creativity:</span>
-            Evaluate the uniqueness and creativity of the solution. Consider whether it addresses a real-world problem in a novel way or introduces innovative features.
-          </p>
-          <p>
-            <span class="text-[#D434FE] font-bold">Functionality:</span>
-            Assess how well the solution works. Does it perform its intended functions effectively and without major issues? Judges would consider the completeness and robustness of the solution.
-          </p>
-          <p>
-            <span class="text-[#D434FE] font-bold">Impact and Relevance:</span>
-            Dtermine the potential impact of the solution in the real-world. Does it address a significant problem, and is relevant to the target audience? Judges would assess the potential social, economic, or environmental benefits.
-          </p>
-          <p>
-            <span class="text-[#D434FE] font-bold">Technical Complexity:</span>
-            Evaluate the technical sophistication of the solution. Judges would consider the complexity of the code, the use of advanced technologies or algorithms, and the scalability of the solution.
-          </p>
-          <p>
-            <span class="text-[#D434FE] font-bold">Adherence to Hackathon Rules:</span>
-            Judges will ensure that the team adhered to the rules and guidelines of the hackathon, including deadlines, use of specific APIs, and any other competition-specific requirements.
-          </p>
-          <p class="my-5">
-            <a class="bg-gradient-to-r from-pink-600 to-purple-500 px-6 py-2 rounded-sm">Read More</a>
-          </p>
-        </div>
-      </div>
-
-
-      <div class="flex flex-col justify-center items-center mx-5 lg:flex-row mt-14">
-        <div class="text-white text-center">
-          <p class="text-3xl font-bold">Frequently Ask</p>
-          <p class="text-2xl font-bold text-[#D434FE]">Questions</p>
-          <p>We got answers to the questions that you might want to ask about <span class="font-bold">getlinked Hackathon 1.0</span></p>
-
-          <div class="question text-left">
-            <p>Can I work on a project I started before the hackathon?</p>
-          </div>
-        </div>
-        <img src="img1.png">
-      </div>
-  
-        <script>
-          const open = document.getElementById("menu-open")
-          const close = document.getElementById('menu-close')
-          const options = document.getElementById('options')
-          open.addEventListener('click', function() {
+  <script>
+    const open = document.getElementById("menu-open");
+    const close = document.getElementById("menu-close");
+    const options = document.getElementById("options");
+    open.addEventListener("click", function () {
+      options.classList.remove("hidden");
+    });
+    close.addEventListener("click", function () {
+      options.classList.add("hidden");
+    });
+    /*menu.addEventListener('click', function(){
+          if (options.classList.contains('hidden')){
             options.classList.remove('hidden')
-          })
-          close.addEventListener('click', function() {
+          }
+          else{
             options.classList.add('hidden')
-          })
-          /*menu.addEventListener('click', function(){
-            if (options.classList.contains('hidden')){
-              options.classList.remove('hidden')
-            }
-            else{
-              options.classList.add('hidden')
-            }
-          })*/
-        </script>
+          }
+        })*/
+  </script>
 </body>
+
 </html>

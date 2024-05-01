@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/6bd9574680.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="bg-[#150E28]">
+    <div class="mb-20 border-b border-gray-100/20 text-white flex flex-col">
+      <div class="border-b border-white py-2 flex items-center justify-between">
+        <div class="font-bold px-5 text-white flex-grow text-2xl">
+          <p class="inline">get</p>
+          <p class="inline">linked</p>
+        </div>
+        <i
+          id="menu-open"
+          class="fa-solid fa-bars mr-5 hover:cursor-pointer text-white sm:hidden"
+        ></i>
+
+        <!--For laptop-->
+        <div
+          class="hidden sm:flex sm:flex-grow sm:flex-row sm:justify-between sm:items-center sm:text-sm sm:text-white"
+        >
+          <p
+            class="py-3 hover:bg-green-300 sm:hover:bg-[#150E28] hover:cursor-pointer sm:hover:underline"
+          >
+            Timeline
+          </p>
+          <p
+            class="py-3 hover:bg-green-300 sm:hover:bg-[#150E28] hover:cursor-pointer sm:hover:underline"
+          >
+            Overview
+          </p>
+          <p
+            class="py-3 hover:bg-green-300 sm:hover:bg-[#150E28] hover:cursor-pointer sm:hover:underline"
+          >
+            FAQs
+          </p>
+          <p
+            class="py-3 hover:bg-green-300 sm:hover:bg-[#150E28] hover:cursor-pointer sm:mr-5 sm:hover:underline"
+          >
+            Contact
+          </p>
+          <p
+            class="py-3 hover:bg-green-300 sm:hover:bg-[#150E28] hover:cursor-pointer sm:mr-5 sm:hover:underline"
+          >
+            <a
+              class="bg-gradient-to-r from-pink-600 to-purple-500 px-6 py-2 rounded-sm"
+              >Register</a
+            >
+          </p>
+        </div>
+      </div>
+
+      <!--phone-->
+      <div
+        id="options"
+        class="hidden bg-[#150E28] text-white text-left flex flex-grow justify-center flex-col sm:hidden fixed top-0 h-full w-full"
+      >
+        <i
+          id="menu-close"
+          class="fa-regular fa-circle-xmark text-2xl hover:text-pink-600 hover:text-gradient-to-r hover:from-[#D434FE] hover:to-transparent hover:cursor-pointer ml-auto mr-20"
+        ></i>
+        <p class="py-3 px-12 hover:cursor-pointer w-screen">Timeline</p>
+        <p class="py-3 px-12 hover:cursor-pointer w-screen">Overview</p>
+        <p class="py-3 px-12 hover:cursor-pointer w-screen">FAQs</p>
+        <p class="py-3 px-12 hover:cursor-pointer w-screen">Contact</p>
+        <p class="py-3 px-12 hover:cursor-pointer w-screen">
+          <a
+            class="bg-gradient-to-r from-pink-600 to-purple-500 px-6 py-2 rounded-sm"
+            >Register</a
+          >
+        </p>
+      </div>
+      <div class="flex">
+        <img src="img1.png">
+        <div>
+          <form>
+            <label>
+              <input type="text" placeholder="Name">
+            </label>
+            <label>
+              <input type="text" placeholder="Tel">
+            </label>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
